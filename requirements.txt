@@ -1,0 +1,24 @@
+# API
+fastapi
+uvicorn[standard]
+
+# RAG & LLMs
+langchain
+langchain-openai
+llama-index
+
+# Knowledge Graph (Assuming Neo4j, adjust if using Azure Cosmos DB Gremlin/Cassandra)
+neo4j
+
+# Document Processing / Ingestion
+pypdf
+beautifulsoup4
+unstructured
+
+# Evaluation
+ragas
+evaluate
+
+# Testing & Utilities
+pytest
+python-dotenv
