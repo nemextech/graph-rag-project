@@ -18,8 +18,8 @@ Terraform configuration for provisioning all Azure resources needed by the Graph
 │  └──────────────┘  └────────────────────────────┘   │
 │                                                     │
 │  ┌────────────────────────────┐  ┌───────────────┐  │
-│  │  Cosmos DB (Gremlin)      │   │ Container App │  │
-│  │ Serverless · Graph API    │   │ FastAPI · 8000│  │
+│  │  Cosmos DB (Gremlin)       │  │ Container App │  │
+│  │ Serverless · Graph API     │  │ FastAPI · 8000│  │
 │  │                            │  │ Scale to zero │  │
 │  │  ○ entities graph          │  │               │  │
 │  └────────────────────────────┘  └───────────────┘  │
@@ -154,4 +154,5 @@ To add a new Azure resource:
 2. Define variables, resource blocks, and outputs
 3. Wire it into `main.tf` as a module call
 4. Add any new outputs to `outputs.tf`
+
 
